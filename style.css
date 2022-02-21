@@ -6,6 +6,8 @@ body {
     display: flex;
     gap: 2rem;
     justify-content: center;
+    background-color: grey;
+    flex-wrap: wrap;
 }
 
 .flex-container div {
@@ -34,4 +36,8 @@ img.movie {
 
 #header{
     text-align: center;
+    background-color: #282828;
+    color: #ffffff;
+    padding: 40px;
+    margin: 0%;
 }
