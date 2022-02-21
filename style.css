@@ -4,8 +4,7 @@ body {
 
 .flex-container {
     display: flex;
-    gap: 2rem;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: grey;
     flex-wrap: wrap;
 }
@@ -24,8 +23,12 @@ body {
     font-size: large;
     background-color: #282828;
     color: #ffffff;
-    padding: 5px;
     border-radius: 0px 0px 25px 25px;
+    margin-top: 0px;
+}
+
+.movietitle p {
+    display: inline-flex;
 }
 
 img.movie {
