@@ -5,8 +5,13 @@ body {
 .flex-container {
     display: flex;
     justify-content: space-evenly;
-    background-color: grey;
     flex-wrap: wrap;
+    padding: 20px;
+}
+
+.grey {
+    background-color: grey;
+
 }
 
 .flex-container div {
