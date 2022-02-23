@@ -56,7 +56,7 @@ body {
 }
 
 .movietitle p {
-    display: block;
+    display: inline-block;
 }
 
 img.movie {
